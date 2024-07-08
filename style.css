@@ -93,3 +93,15 @@ main{
     margin:0 auto;
     
 }
+.about{
+    border-radius:10px;
+    text-align:center;
+}
+.about-items{
+    display:flex;
+    text-align:center;
+    justify-content:space-between;
+}
+.item-description{
+    font-weight:bold;
+}
