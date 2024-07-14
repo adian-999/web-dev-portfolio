@@ -164,6 +164,34 @@ footer{
     padding:130px 230px;
     display:flex;
 }
+/* responsive media query */
+.hide{
+    display:none;
+}
+@media screen and (max-width:576px){
+    .skills-container, .resume-container,.banner,.banner-content,nav, footer{
+        flex-direction:column;
+    }
+    footer{
+        padding:20px;
+    }
+    .footer-column{
+        width:100%;
+    }
+    .skills{
+        text-align: center;
+    }
+    .about-items{
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+    }
+    .banner-content{
+        margin:10px;
+    }
+    .banner-pic{
+        width:100%;
+    }
+}
 
 
 
